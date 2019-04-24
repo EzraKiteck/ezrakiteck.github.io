@@ -1,0 +1,297 @@
+#title {
+    background-color: rgb(64,174,73);
+    font-family: Pixellari;
+    font-weight: 100;
+    font-size: 86px;
+    color: white;
+    text-align: center;
+    padding: 2%;
+    margin: 0px auto;
+    text-shadow: 5px 5px rgb(4, 117, 13);
+}
+
+html {
+    background-color:white;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 0;
+}
+
+/* Style for text links */
+a {
+    color:white;
+}
+
+a:hover {
+    text-shadow: 3px 3px rgb(0, 121, 155);
+    text-decoration: none;
+}
+
+.a_ex {
+    color:white;
+}
+
+.a_ex:hover {
+    text-shadow: 3px 3px rgb(133, 71, 0);
+    text-decoration: none;
+}
+
+.a_pro {
+    color:white;
+}
+
+.a_pro:hover {
+    text-shadow: 3px 3px rgb(19, 0, 41);
+    text-decoration: none;
+}
+
+/* Style for buttons */
+.link {
+    color: white; 
+    font-size: 38px;
+    background: #00a700;
+    text-shadow: 5px 5px #008d00;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 3px 3px 3px 3px;
+    
+}
+
+.link:hover {
+    background: #00e000;
+    text-shadow: 5px 5px #00a700;
+}
+
+h1 {
+    text-shadow: 5px 5px rgb(56, 56, 56);
+}
+
+/* Headers */
+.about-header {
+    text-shadow: 5px 5px rgb(0, 113, 155);
+    font-size: 48px;
+}
+
+.experience-header {
+    text-shadow: 5px 5px rgb(133, 71, 0);
+}
+
+.projects-header {
+    text-shadow: 5px 5px rgb(19, 0, 41);
+}
+
+.titles {
+    background-color: rgb(10, 122, 70);
+    padding: 1px;
+    font-family: Pixellari;
+    font-size: 32px;
+    text-align: center;
+    color: white;
+}
+
+/* Bodies */
+.desc {
+    background-color: rgb(0, 176, 224);
+    color: white;
+    padding: 24px 54px;
+    font-family: Pixellari;
+    font-size: 26px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.experience {
+    background-color:rgb(174, 92, 0);
+    color: white;
+    padding: 12px 54px;
+    font-family: Pixellari;
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.projects {
+    background-color:rgb(40, 1, 86);
+    color: white;
+    padding: 24px 54px;
+    font-family: Pixellari;
+    font-size: 26px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Tiles between */
+.floor {
+    background-image: url("../images/grassbg.png");
+    padding: 22px;
+}
+
+.ceiling {
+    background-image: url("../images/caveCeiling.png");
+    padding: 22px;
+}
+
+.stalagmites {
+    background-image: url("../images/stalgmites.png");
+    padding: 40px;
+}
+
+
+.list {
+    background-color: rgb(133, 71, 0);
+    list-style-type: disc;
+    text-align: left;
+    display:table; 
+    margin:0 auto;
+    border-radius: 10px;
+}
+
+
+/* Images */
+.image {
+    border: solid 2px white;
+    margin: 15px 15px;
+    height: 300px;
+}
+
+.prof_image {
+    border: solid 2px white;
+    margin: auto 15px;
+    height: 100%;
+}
+
+.logo_image {   
+    border: solid 2px white;
+    margin: auto 15px;
+    height: 60%;
+    border-radius: 10px;
+}
+
+.logo {
+    height: 50px;
+    padding: 10px;
+    margin: auto 5px;
+    border-bottom-style:solid;
+    border-bottom-color: rgb(0, 176, 224);
+}
+
+.logo:hover {
+    border-bottom-color: white;
+}
+
+/* Text */
+.soc_media {
+    margin: auto 0;
+    width:50%;
+    max-height: 100%;
+}
+
+.game_desc {
+    margin: auto 5px;
+    width:60%;
+    padding:10px;
+    max-height: 100%;
+    font-size: 23px;
+    text-align: left;
+}
+
+.secret {
+    background-color: rgb(40, 1, 86);
+    color: rgb(40, 1, 86);
+    padding: 20px;
+    font-family: Pixellari;
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Flex boxes */
+.flex {
+    height: 100px;
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: baseline;
+}
+
+.flex_text {
+    height: 300px;
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: baseline;
+}
+
+.flex_game {
+    height: 300px;
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: baseline;
+}
+
+/* Font */
+@font-face {
+    font-family: Pixellari;
+    src: url(../fonts/Pixellari.ttf);
+}
+
+
+/* Changing styles to accomodate smaller screen sizes */
+@media only screen and (max-width: 600px) {
+    .titles{
+        background-color: rgb(10, 122, 70);
+        padding: 1px;
+        font-family: Pixellari;
+        font-size: 22px;
+        text-align: center;
+        color: white;
+    }
+    /*
+    .link {
+        color: white; 
+        font-size: 26px;
+        background: rgb(250, 193, 38);
+        text-shadow: 5px 5px rgb(224, 165, 2);
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 4px 4px 4px 4px;
+    }
+    */
+}
+
+@media only screen and (max-width: 900px) {
+    .titles{
+        background-color: rgb(10, 122, 70);
+        padding: 1px;
+        font-family: Pixellari;
+        font-size: 22px;
+        text-align: center;
+        color: white;
+    }
+    /*
+    .link {
+        color: white; 
+        font-size: 26px;
+        background: rgb(250, 193, 38);
+        text-shadow: 5px 5px rgb(224, 165, 2);
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 3px 3px 3px 3px;
+    }
+    */
+    .soc_media {
+        margin: auto 0;
+        width:50%;
+        max-height: 100%;
+        font-size: 20px;
+    }
+    .game_desc {
+        font-size: 18px;
+    }
+}
